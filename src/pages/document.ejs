@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="renderer" content="webkit">
+  <!-- for 360 浏览器 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+  <title>内部文件登记系统</title>
+  <!-- <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+  <link rel="icon" href="http://10.151.18.29/icons/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>
+    window.electron = require('electron')
+    window.electron.dialog = require('electron').dialog
+    window.electron.shell = require('electron').shell
+  </script>
+
+</body>
+
+</html>
